@@ -1,25 +1,9 @@
-
 {
-    "notes": [
-      {
-        "title": "Wake UP",
-        "text": "smell the roses",
-        "id": "0"
-      },
-      {
-        "title": "Get water",
-        "text": "go tho the store",
-        "id": "1"
-      },
-      {
-        "title": "code this project",
-        "text": "get to coding",
-        "id": "2"
-      },
-      {
-        "title": "meet new dev",
-        "text": "join zoom meet",
-        "id": "3"
-      }
-    ]
-  }
+  "notes": [
+    {
+      "title": "heyy",
+      "text": "yoo",
+      "id": "0"
+    }
+  ]
+}

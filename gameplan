@@ -2,6 +2,7 @@ WHEN I open the Note Taker
 THEN I am presented with a landing page with a link to a notes page
 ----- Todo --------
 - Add in func for button to lead to notes.html
+- Done
 -------------------
 
 WHEN I click on the link to the notes page

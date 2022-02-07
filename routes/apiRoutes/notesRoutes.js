@@ -2,10 +2,12 @@ const router = require("express").Router();
 const { createNewNote, validateNote } = require("../../lib/notes");
 const { notes } = require("../../data/notes");
 
+//get saved notes
 router.get("/notes", (req, res) => {
   res.json(notes);
 });
 
+//save to db
 router.post("/notes", (req, res) => {
   req.body.id = notes.length.toString();
 
@@ -17,6 +19,18 @@ router.post("/notes", (req, res) => {
   }
 });
 
-//add in delete route here :)
+//delete notes
+router.delete("/notes/:id", (req, res) => {
+  const id = req.params.id;
+  let note;
+
+  notes.map((element, index) => {
+    if (element.id == id) {
+      note = element;
+      notes.splice(index, 1);
+      return res.json(note);
+    }
+  });
+});
 
 module.exports = router;
