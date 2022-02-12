@@ -19,8 +19,7 @@ Use this application to generate a team file by cloning the repository and runni
 
 # Usage
 > [Usage Video](loading...)
-
-When you run node server in your terminal, you will be able to navigate to the note taker app! Press + to add a note, the save button to save and the trash icon to delete a note.
+loading...
 
 # License
 
