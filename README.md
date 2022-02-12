@@ -20,7 +20,7 @@ Use this application to generate a team file by cloning the repository and runni
 # Usage
 > [Usage Video](loading...)
 
-When you run node index in your terminal, you will be made to answer a series of questions. Once all questions are answered navigate to the dist folder as it will house the readme file that your responses will be stored to. Open a preview of your new README and ensure that everything is spelled correctly and that the links to your GitHub page and email work otherwise you will need to run the application again and reinput the correct information.
+When you run node server in your terminal, you will be able to navigate to the note taker app! Press + to add a note, the save button to save and the trash icon to delete a note.
 
 # License
 
